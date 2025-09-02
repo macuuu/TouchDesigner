@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Designer Portfolio - Maciej Różewicz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Ciemne tło */
+            color: #ffffff; /* Biały tekst */
+            line-height: 1.6;
+            text-align: center; /* Wyśrodkowanie tekstu */
+        }
+        .container {
+            max-width: 900px; /* Maksymalna szerokość kontenera */
+            margin: 0 auto; /* Wyśrodkowanie kontenera */
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em; /* Większy nagłówek */
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.1em; /* Trochę większa czcionka dla paragrafów */
+            margin-bottom: 20px;
+        }
+        .intro-text {
+            margin-bottom: 40px;
+        }
+        .image-gallery {
+            display: flex; /* Układ flexbox dla obrazków */
+            justify-content: center; /* Wyśrodkowanie obrazków */
+            gap: 20px; /* Odstęp między obrazkami */
+            margin-bottom: 40px;
+            flex-wrap: wrap; /* Obrazki zawiną się na mniejszych ekranach */
+        }
+        .image-gallery img {
+            max-width: 45%; /* Szerokość obrazków, żeby zmieściły się dwa obok siebie z odstępem */
+            height: auto;
+            border: 1px solid #333; /* Delikatna ramka */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Delikatny cień */
+        }
+        .about-section {
+            text-align: left; /* Tekst w sekcji "About" wyrównany do lewej */
+            max-width: 700px; /* Ograniczenie szerokości tekstu dla lepszej czytelności */
+            margin: 0 auto 40px auto; /* Wyśrodkowanie sekcji "About" */
+        }
+
+        /* Responsywność dla mniejszych ekranów */
+        @media (max-width: 768px) {
+            .image-gallery img {
+                max-width: 90%; /* Na małych ekranach obrazki zajmą więcej miejsca */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Touch Designer Portfolio</h1>
+
+        <p class="intro-text">Hello! My name is Maciej, I'm a Level Designer and TouchDesigner enthusiast<br>This is my Story</p>
+
+        <div class="image-gallery">
+            <img src="https://via.placeholder.com/400x250/000000/FFFFFF?text=Project+Image+1" alt="Obrazek projektu 1">
+            <img src="https://via.placeholder.com/400x250/000000/FFFFFF?text=Project+Image+2" alt="Obrazek projektu 2">
+        </div>
+
+        <div class="about-section">
+            <p>I'm Level designer from Wrocław, creating mobile game experiences that are fun, intuitive, and optimized for short but meaningful play sessions. I enjoy shaping logical gameplay puzzles that feels smooth at first touch, yet deep enough to keep players coming back. My design approach is inspired by the clever simplicity of classic puzzle games, the endless worlds shaped by dynamic gameplay systems, and the way modern free-to-play titles keep players engaged without losing balance. I aim to create levels that not only challenge, but also reward players with a clear sense of progress and discovery. Thanks for the reading.</p>
+
+            <p>My design approach is inspired by the clever simplicity of classic puzzle games, the endless worlds shaped by dynamic gameplay systems, and the way modern free-to-play titles keep players engaged without losing balance. I aim to create levels that not only challenge, but also reward players with a clear sense of progress and discovery. Thanks for the reading.</p>
+        </div>
+    </div>
+
+</body>
+</html>
