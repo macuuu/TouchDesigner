@@ -6,54 +6,53 @@
     <title>Touch Designer Portfolio - Maciej Różewicz</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Times New Roman", Times, serif; /* Dodanie Times New Roman */
             margin: 0;
             padding: 0;
-            background-color: #000000; /* Ciemne tło */
-            color: #ffffff; /* Biały tekst */
+            background-color: #000000;
+            color: #ffffff;
             line-height: 1.6;
-            text-align: center; /* Wyśrodkowanie tekstu */
+            text-align: center;
         }
         .container {
-            max-width: 900px; /* Maksymalna szerokość kontenera */
-            margin: 0 auto; /* Wyśrodkowanie kontenera */
+            max-width: 900px;
+            margin: 0 auto;
             padding: 20px;
         }
         h1 {
-            font-size: 2.5em; /* Większy nagłówek */
+            font-size: 2.5em;
             margin-top: 50px;
             margin-bottom: 30px;
         }
         p {
-            font-size: 1.1em; /* Trochę większa czcionka dla paragrafów */
+            font-size: 1.1em;
             margin-bottom: 20px;
         }
         .intro-text {
             margin-bottom: 40px;
         }
         .image-gallery {
-            display: flex; /* Układ flexbox dla obrazków */
-            justify-content: center; /* Wyśrodkowanie obrazków */
-            gap: 20px; /* Odstęp między obrazkami */
+            display: flex;
+            justify-content: center;
+            gap: 20px;
             margin-bottom: 40px;
-            flex-wrap: wrap; /* Obrazki zawiną się na mniejszych ekranach */
+            flex-wrap: wrap;
         }
         .image-gallery img {
-            max-width: 45%; /* Szerokość obrazków, żeby zmieściły się dwa obok siebie z odstępem */
+            max-width: 45%;
             height: auto;
-            border: 1px solid #333; /* Delikatna ramka */
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Delikatny cień */
+            border: 1px solid #333;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
         }
         .about-section {
-            text-align: left; /* Tekst w sekcji "About" wyrównany do lewej */
-            max-width: 700px; /* Ograniczenie szerokości tekstu dla lepszej czytelności */
-            margin: 0 auto 40px auto; /* Wyśrodkowanie sekcji "About" */
+            text-align: left;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
         }
 
-        /* Responsywność dla mniejszych ekranów */
         @media (max-width: 768px) {
             .image-gallery img {
-                max-width: 90%; /* Na małych ekranach obrazki zajmą więcej miejsca */
+                max-width: 90%;
             }
         }
     </style>
